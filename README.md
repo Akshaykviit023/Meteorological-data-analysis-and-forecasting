@@ -149,3 +149,110 @@ Plot the original time series along with the forecasted values using matplotlib.
 <a href="http://www.kaggle.com/datasets/muthuj7/weather-dataset">Click here for the Dataset</a>
 <br>
 <h2>Architecture:</h2>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231559837-86407423-a613-4fe4-9d02-51d997e7ec7f.png"><br>
+</div>
+<br>
+
+<h2>Results:</h2>
+<br>
+<h3>Initial Data Analysis:</h3>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231560066-ce4aa68a-420b-478a-93c4-14243a9c8e14.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231560283-50f4e4bd-5f6a-4734-a61f-05a51dc6ae0c.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231560348-ff630282-755e-4fb2-98c7-8e48abc7aed6.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231560415-ae42d411-f032-4121-849d-425e4f658bec.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231560482-101dbc0e-787f-4289-bb45-53eab63ac24c.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231560531-f3a68c4d-b18a-4719-ae35-2117489c8890.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231560611-23a9835c-d544-4ed1-8a33-3f6c43002b1a.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231560671-61d57da1-3332-46f8-8af3-684587e96820.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231560733-eb0866c1-584a-4d0d-a272-aef47f5aee4c.png"><br>
+</div>
+<br>
+<h3>Forecasting Results:</h3>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231561039-056c505e-c5d5-4a08-a4fd-fcbfeeaa10af.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231561200-11b5aa10-a4b2-4043-a37c-e84a6287550d.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231561265-e99d3fb0-43b3-4db8-b5b3-d2524571248f.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231561312-f699ab2c-ee80-4711-928d-9cb46aea84ce.png"><br>
+</div>
+<br>
+<h3>Tableau Results:</h3>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231561520-5e87626b-3911-4cef-bb05-f80eeea299ca.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231561673-d7c60160-ec5d-483c-9ed5-6f5737e0633c.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231561732-d80f0e26-4974-4d92-b6eb-4322b9492acb.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231561776-fba56c45-b81a-45fa-b01c-dbeea05bbc18.png"><br>
+</div>
+<br>
+<br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73570745/231561803-fdbfa61e-b486-4723-8c9f-d1cf493cbbfd.png"><br>
+</div>
+<br>
+<h2>Conclusion:</h2>
+<br>
+In conclusion, the code demonstrated the use of an ARIMA model to anticipate temperature data for the following two years and provided a thorough analysis and visualisation of meteorological data. To remove extraneous columns and fill in missing values, the data was initially preprocessed. The association between elements like humidity, wind speed, and temperature was then determined using monthly averages and data visualisation.
+The time series data were then subjected to the ARIMA model, which was fitted using an order of (1,1,1) after differencing was performed to confirm the data's stationarity. The forecasted temperature values were calculated by multiplying the most recent temperature value by the cumulative sum of the forecasted temperature values.
+The analysis offers a helpful place to start for more research and model enhancements. To comprehend the discrepancy between the predicted and actual temperature readings, multiple measures, including Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE), can be used to measure the model's accuracy. To find the optimal order for forecasting the temperature data, various orders for the ARIMA model could also be attempted and contrasted.
+Overall, the code offers a superb illustration of how to reliably anticipate time series data using a variety of techniques, including data pre-treatment, visualization, and modelling.
